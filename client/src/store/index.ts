@@ -1,9 +1,9 @@
 import { createStore } from 'vuex'
 
+import user from '@store/user'
+
 export default createStore({
-    state () {
-      return {
-        count: 0
-      }
+    modules: {
+        user
     }
 })

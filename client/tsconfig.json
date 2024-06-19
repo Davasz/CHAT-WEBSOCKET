@@ -10,7 +10,8 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@store/*": ["src/store/*"],
     },
     "types": ["node", "vue"]
   }
